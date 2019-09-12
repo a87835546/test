@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'yc_test'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = '颜臣的测试pod'
 
 # This description is used to generate tags and improve search results.
