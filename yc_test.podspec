@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'yc_test'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of yc_test.'
+  s.summary          = '颜臣的测试pod'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/a87835546/yc_test'
+  s.homepage         = 'https://github.com/a87835546/test'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'a87835546' => '87835546@qq.com' }
-  s.source           = { :git => 'https://github.com/a87835546/yc_test.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/a87835546/test.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.frameworks = 'UIKit', 'MapKit'
+   s.dependency 'AFNetworking', '~> 3.2.1'
 end

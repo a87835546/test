@@ -1,0 +1,16 @@
+PODS:
+  - yc_test (0.1.0)
+
+DEPENDENCIES:
+  - yc_test (from `../`)
+
+EXTERNAL SOURCES:
+  yc_test:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  yc_test: dfe4ac2c51175e201b3e4e4b147e97e0b9538260
+
+PODFILE CHECKSUM: c0ccbadf17960b0cc8d253abf83300eb5cb221b6
+
+COCOAPODS: 1.8.0.beta.2
